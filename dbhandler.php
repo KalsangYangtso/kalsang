@@ -1,8 +1,11 @@
 <?php
- $con=mysql_connect("localhost","kay","dtycts16");
-            if(!$con){
-                die("Connection failed:" . mysqli_connect_error());
-            }
-        
-          
-            ?>
+session_start();
+ 
+$dbhost = "localhost"; // this will ususally be 'localhost', but can sometimes differ
+$dbname = "kay"; // the name of the database that you are going to use for this project
+$dbuser = "kay"; // the username that you created, or were given, to access your database
+$dbpass = "dtycts"; // the password that you created, or were given, to access your database
+ 
+mysql_connect($dbhost, $dbuser, $dbpass) or die("MySQL Error: " . mysql_error());
+mysql_select_db($dbname) or die("MySQL Error: " . mysql_error());
+?>
