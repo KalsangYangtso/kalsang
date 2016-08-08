@@ -43,8 +43,8 @@ break;
 }
 }
 }
-include 'cart.html.php';
+include 'cart.php';
 exit();
 }
-include 'catalog.html.php';
+include 'catalog.php';
 ?>
