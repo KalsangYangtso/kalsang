@@ -4,7 +4,7 @@
 <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
 <title>User Management System (Tom Cameron for NetTuts)</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
+
 </head>  
 <body>  
     <div id="main">
@@ -14,7 +14,7 @@
      
    <p>Thanks for visiting! Please either login below, or <a href="register.php">click here to register</a>.</p>
      
-    <form method="post" action="index.php" name="loginform" id="loginform">
+   <form method="post" action="insertlogin.php" name="loginform" id="loginform">
     <fieldset>
         <label for="username">Username:</label><input type="text" name="email" id="email" /><br />
         <label for="password">Password:</label><input type="password" name="userpassword" id="userpassword" /><br />

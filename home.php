@@ -16,6 +16,7 @@ and open the template in the editor.
             <a href="registration.php">Registration</a>
             <a href="login.php">Login</a>
             <a href="cart.php">Cart</a>
+            <a href="index.php">INDEX</a>
             
         </div>
     </body>

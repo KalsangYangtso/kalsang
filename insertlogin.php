@@ -6,6 +6,7 @@
     </head>
     <body>
       <?php
+      include'dbhanler.php';
 if(!empty($_SESSION['LoggedIn']) && !empty($_SESSION['email']))
 {
      ?>
@@ -29,7 +30,7 @@ elseif(!empty($_POST['email']) && !empty($_POST['userpassword']))
          
         $_SESSION['email'] = $email;
    
-        $_SESSION['Login'] = 1;
+        $_SESSION['LoggedIn'] = 1;
          
         echo "<h1>Success</h1>";
         echo "<p>We are now redirecting you to the member area.</p>";
