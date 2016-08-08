@@ -21,8 +21,8 @@ and open the template in the editor.
         <fieldset>
             <legend>Registration</legend>
         <form action="insertregister.php" method="POST">
-            User Email:<br /><input type="text" name="email"><br />
-            User Password:<br /><input type="password" name="userpassword"><br />
+            User Email:<br /><input type="text" id="email" name="email"><br />
+            User Password:<br /><input type="password" id="userpassword" name="userpassword"><br />
              <br /><input type="submit" name="submit" value="Register"><br />
         </form>
             </fieldset>
