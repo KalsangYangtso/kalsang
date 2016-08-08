@@ -11,6 +11,13 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+             <div class="navi">
+            <a href="home.php">Home</a>
+            <a href="registration.php">Registration</a>
+            <a href="login.php">Login</a>
+            <a href="cart.php">Cart</a>
+            
+        </div>
+        
     </body>
 </html>
