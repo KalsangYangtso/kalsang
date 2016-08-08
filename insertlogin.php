@@ -35,9 +35,9 @@
             } else {
                 echo "data found";
             }
-            if (mysqli_fetch_array($result['userpassword']) == $userpassword) {
+            if (mysqli_fetch_array($result['userpassword']) != $userpassword) {
 
-                echo "Login successful";
+                echo "Login unsuccessful";
             } else {
 
                 echo $result['email'];
