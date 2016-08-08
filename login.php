@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -18,6 +18,13 @@ and open the template in the editor.
             <a href="cart.php">Cart</a>
             
         </div>
-        
+        <fieldset>
+            <legend>Login</legend>
+        <form action="insertlogin.php" method="POST">
+            User Email:<br /><input type="text" name="email"><br />
+            User Password:<br /><input type="password" name="userpassword"><br />
+             <br /><input type="submit" name="submit" value="Login"><br />
+        </form>
+            </fieldset>
     </body>
 </html>
