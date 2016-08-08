@@ -33,18 +33,20 @@
             if (mysqli_num_rows($result) != 1) {
                 echo "no data found";
             } else {
-                echo "data found";
+               // echo "data found";
             }
-            if (mysqli_fetch_array($result['userpassword']) != $userpassword) {
+            if (mysqli_fetch_array($result)['userpassword'] == $userpassword) {
 
-                echo "Login unsuccessful";
+                echo "Welcome to BOOKAZON  ". $email;
+               header("Location:  inhome.php");
             } else {
 
-                echo $result['email'];
+                echo "yyyyy";
             }
         } else {
             echo "nothing submitted";
         }
+         
         ?>
     </body>
 </html> 

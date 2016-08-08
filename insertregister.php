@@ -14,6 +14,7 @@
         </div>
    
 <?php
+
         if(isset($_POST['submit']))
         {
             $con =  mysql_connect("localhost","kay","dtycts16");
