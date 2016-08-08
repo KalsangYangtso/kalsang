@@ -33,7 +33,7 @@
             if (mysqli_num_rows($result) != 1) {
                 echo "no data found";
             } else {
-                echo "hehhehehehehe";
+                echo "data found";
             }
             if (mysqli_fetch_array($result['userpassword']) == $userpassword) {
 
